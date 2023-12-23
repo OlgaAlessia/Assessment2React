@@ -1,0 +1,52 @@
+.col-8 { 
+  flex: 0 0 40;
+}
+
+.accordion {
+  width: auto;
+}
+
+.accordion-header{
+  font-size: 1.5rem;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-bottom: 0;
+ }
+
+.accordion-header button{
+ width: 100%;
+ color: white;
+ background-color: black;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.accordion:hover {
+  background-color: #ccc;
+}
+
+
+.accordion-item {
+  background-color: black;
+  text-align: center;
+  /*border: 0.5px solid rgb(255, 255, 255);*/
+}
+
+.accordion-body{
+  color: black;
+  background-color: bisque;
+
+}
+
+.accordion-body li{
+  list-style-type: none;
+}
+
+
+/* Style the accordion panel. Note: hidden by default
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+} */
