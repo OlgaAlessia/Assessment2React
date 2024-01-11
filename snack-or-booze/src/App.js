@@ -24,11 +24,11 @@ function App() {
       setIsLoading(false);
     }
     getItems();
-  }, []);
+  }, [snacks, drinks]);
 
 
   if (isLoading) {
-    return <p>Loading &hellip;</p>;
+    return <p>Loading ...</p>;
   }
 
   return (

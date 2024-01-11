@@ -17,30 +17,29 @@ function FormAddItem({ categories }) {
         console.log(formData.category);
 
         let newItem = {
-          "id": (formData.id).replace(/\s+/g, '-'),
-          "name": formData.name,
-          "description": formData.description,
-          "recipe": formData.recipe,
-          "serve": formData.serve
+            "id": (formData.id).replace(/\s+/g, '-'),
+            "name": formData.name,
+            "description": formData.description,
+            "recipe": formData.recipe,
+            "serve": formData.serve
         }
-    
+
         await SnackOrBoozeApi.setItem(formData.category, newItem);
-      }
+    }
 
 
-        /**  clear form. */
-        const handleSubmit = evt => {
-            
-            evt.preventDefault();
-            console.log(formData)
-            addItem();
-            setFormData(INITIAL_STATE);
-        };
+    /**  clear form. */
+    const handleSubmit = evt => {
+
+        evt.preventDefault();
+        addItem();
+        setFormData(INITIAL_STATE);
+    };
 
     /** Update local state w/curr state of input elem */
 
     const handleChange = evt => {
-        
+
         const { name, value } = evt.target;
         setFormData(fData => ({
             ...fData,

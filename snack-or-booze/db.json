@@ -50,6 +50,27 @@
       "description": "Tart and delicious.",
       "recipe": "Mix arugula, toasted walnuts, and thinly-sliced Parmesan cheese. Dress with lemon and olive oil.",
       "serve": "Place on tiny, precious little plates."
+    },
+    {
+      "id": "olga-snacks",
+      "name": "easy Snacks",
+      "description": "cheeses",
+      "recipe": "cut the cheeses in triangles and put them on a cutting board",
+      "serve": "Immediatly"
+    },
+    {
+      "id": "try-me",
+      "name": "Try me",
+      "description": "I do not know",
+      "recipe": "bla bla",
+      "serve": "immediatly"
+    },
+    {
+      "id": "gelato",
+      "name": "gelato",
+      "description": "intence and creamy",
+      "recipe": "take a spoon and add in a bowl",
+      "serve": "Immediatly"
     }
   ]
 }
